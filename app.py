@@ -47,6 +47,6 @@ with st.expander('Analizar Polaridad y Subjetividad en un texto'):
             #st.audio('negativo.mp3')
         else:
             st.write('Es un sentimiento Neutral 😐')
-            st.image('neutro.png', use_column_width=True)
+            st.image('neutral.png', use_column_width=True)
             #st.audio('neutro.mp3')
 
