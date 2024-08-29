@@ -44,9 +44,3 @@ with st.expander('Analizar Polaridad y Subjetividad en un texto'):
         else:
             st.write('Es un sentimiento Neutral 😐')
 
-# Corrección de texto en inglés
-with st.expander('Corrección en inglés'):
-    text2 = st.text_area('Escribe por favor: ', key='4')
-    if text2:
-        blob2 = TextBlob(text2)
-        st.write(blob2.correct())
