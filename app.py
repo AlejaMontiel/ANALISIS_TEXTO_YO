@@ -56,7 +56,7 @@ with st.expander('Analizar Polaridad y Subjetividad en un texto'):
             st.audio(audio_file.read(), format='audio/mp3', start_time=0)
         elif x <= -0.5:
             st.write('Es un sentimiento Negativo 😔')
-            set_bg_color('darkslateblue')  # Fondo azul
+            set_bg_color('midnightblue')  # Fondo azul
             st.image('negativo.png', use_column_width=True)  # Reemplaza 'negativo.png' con la ruta de tu imagen
             audio_file = open('negativo.mp3', 'rb')  # Reemplaza 'negativo.mp3' con la ruta de tu archivo de audio
             st.audio(audio_file.read(), format='audio/mp3', start_time=0)
